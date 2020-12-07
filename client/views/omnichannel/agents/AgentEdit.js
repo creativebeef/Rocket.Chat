@@ -7,7 +7,7 @@ import { useMethod } from '../../../contexts/ServerContext';
 import { useToastMessageDispatch } from '../../../contexts/ToastMessagesContext';
 import { useTranslation } from '../../../contexts/TranslationContext';
 import VerticalBar from '../../../components/VerticalBar';
-import { UserInfo } from '../../room/contextualBar/UserInfo';
+import { UserInfo } from '../../room/ContextualBar/UserInfo';
 import { FormSkeleton } from './Skeleton';
 import { useForm } from '../../../hooks/useForm';
 import { getUserEmailAddress } from '../../../lib/getUserEmailAddress';

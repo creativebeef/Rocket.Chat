@@ -4,7 +4,7 @@ import { useSubscription } from 'use-subscription';
 
 import { useTranslation } from '../../../contexts/TranslationContext';
 import VerticalBar from '../../../components/VerticalBar';
-import { UserInfo } from '../../room/contextualBar/UserInfo';
+import { UserInfo } from '../../room/ContextualBar/UserInfo';
 import { UserStatus } from '../../../components/UserStatus';
 import { FormSkeleton } from './Skeleton';
 import { formsSubscription } from '../additionalForms';
